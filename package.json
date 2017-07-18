@@ -1,0 +1,34 @@
+﻿{
+  "name": "file_io",
+  "version": "1.0.0",
+  "description": "一个简单的文件读写包",
+  "main": "index.js",
+  "scripts": {
+    "watch": "mocha --watch tests/",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "test-cov": "istanbul cover ./node_modules/mocha/bin/_mocha -- -t 2000 --recursive -R spec tests/",
+    "test-html": "mocha --reporter mochawsome tests/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YouzheJ/file_IO.git"
+  },
+  "keywords": [
+    "file",
+    "io"
+  ],
+  "author": "youzhej",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/YouzheJ/file_IO/issues"
+  },
+  "dependencies": {
+    "es6-promise": "^4.1.1"
+  },
+  "devDependencies": {
+    "chai": "^4.1.0",
+    "mocha": "^3.4.2",
+    "mochawesome": "^2.3.0"
+  },
+  "homepage": "https://github.com/YouzheJ/file_IO#readme"
+}
